@@ -1,7 +1,13 @@
 import React,{Component} from "react";
 
 export default class MainContent extends Component{
-    render(){
-        return <div>Hello react</div>
-    }
+  state = {
+      apptitle : "Blood-donate"
+  };
+
+  render(){
+    return (
+     <div className="border-bottom m-1 p-1">{this.state.apptitle}</div>
+    );
+  }
 }
