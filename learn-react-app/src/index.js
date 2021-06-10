@@ -4,7 +4,7 @@ import "jquery";
 import "popper.js/dist/umd/popper";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import NavBar from "./app";
+import App from "./app";
 import "./index.css";
 
-ReactDom.render(<NavBar/>,document.getElementById("root"));
+ReactDom.render(<App/>,document.getElementById("root"));
