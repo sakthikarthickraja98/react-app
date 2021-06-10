@@ -9,7 +9,7 @@ export default class MainContent extends Component{
           {id:2,name:"Anand",phone:946456789,address:{city:"Madurai"}},
           {id:3,name:"Sankar",phone:963456789,address:{city:"Coimbatore"}},
           {id:4,name:"Ram",phone:985456789,address:{city:"Banglore"}},
-          {id:5,name:"KKumar",phone:923456789,address:{city:"Pune"}},
+          {id:5,name:"Kumar",phone:923456789,address:{city:"Pune"}},
       ]
   };
 
