@@ -20,7 +20,9 @@ export default class MainContent extends Component{
   }
 
   //excutes when user click on refresh button
-  onrefreshclick(){
-      console.log("Refresh Clicked")
+  onrefreshclick = () => {
+    this.setState({
+        donerscount:340
+    });
   }
 }
